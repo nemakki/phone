@@ -1,0 +1,21 @@
+.box{
+    width: 800px;
+    height: 400px;
+    background-color: steelblue;
+
+}
+
+#pinkbox{
+    background-color: #e3b1b9;
+
+}
+
+/* turns inline elemets into blocks */
+a{
+    /* display:block; */
+    background-color: #a09bbd;
+}
+
+p{
+    display: inline-block;
+}

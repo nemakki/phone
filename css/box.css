@@ -1,0 +1,155 @@
+
+
+body{
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(101,118,179,1) 72%, rgba(214,128,147,1) 100%);
+}
+
+.wrapper{
+    position: relative;
+    width:400px;
+    height:650px;
+    background-color: #242424;
+    margin: 0px auto;
+    padding: 0px;
+    border-radius: 5%;
+
+
+    /* margin: auto makes it centered */
+    /* margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 80px;
+    margin-bottom: 100px; */
+}
+
+.box{
+    /* position: relative; */
+    float: left;
+    width: 17%;
+    height: 135%;
+    margin: 4% 4% 4% 4%;
+    border-radius: 15%;
+    background-color: #ccc8c8;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+    
+
+    /* margin-top: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px; */
+    /* display: inline-block; */
+}
+
+
+.box:hover{
+    transform: scale(1.5);
+}
+
+.row{
+    /* background-color: #eb8d7f;  */
+    height:8%;
+}
+
+#lower{
+    margin-top: -30px;
+}
+
+.red{
+    background-color: #e05d51;
+}
+
+.cat{
+    background-image:url("http://www.nyan.cat/cats/original.gif");
+}
+
+.cat2{
+    background-image: url("http://www.nyan.cat/cats/nyancoin.gif");
+}
+
+.cat3{
+    background-image: url("http://www.nyan.cat/cats/gb.gif")
+}
+
+.cat4{
+    background-image: url("http://www.nyan.cat/cats/technyancolor.gif")
+}
+
+.cat5{
+    background-image: url("http://www.nyan.cat/cats/jazz.gif")
+}
+
+.cat6{
+    background-image: url("http://www.nyan.cat/cats/pikanyan.gif")
+}
+
+.cat7{
+    background-image: url("http://www.nyan.cat/cats/nyaninja.gif")
+}
+
+.cat8{
+    background-image: url("http://www.nyan.cat/cats/pirate.gif")
+}
+
+.cat9{
+    background-image: url("http://www.nyan.cat/cats/mummy.gif")
+}
+
+.cat10{
+    background-image: url("http://www.nyan.cat/cats/pumpkin.gif")
+}
+
+.cat11{
+    background-image: url("http://www.nyan.cat/cats/retro.gif")
+}
+
+.cat12{
+    background-image: url("http://www.nyan.cat/cats/vday.gif")
+}
+
+.cat13{
+    background-image: url("http://www.nyan.cat/cats/tacnayn.gif")
+}
+
+.cat14{
+    background-image: url("http://www.nyan.cat/cats/xmas.gif")
+}
+
+.cat15{
+    background-image: url("http://www.nyan.cat/cats/easter.gif")
+}
+
+.cat16{
+    background-image: url("http://www.nyan.cat/cats/grumpy.gif")
+}
+
+.cat17{
+    background-image: url("http://www.nyan.cat/cats/bday.gif")
+}
+
+.cat18{
+    background-image: url("http://www.nyan.cat/cats/zombie.gif")
+}
+
+.cat19{
+    background-image: url("http://www.nyan.cat/cats/dub.gif")
+}
+
+.cat20{
+    background-image: url("http://www.nyan.cat/cats/balloon.gif")
+}
+
+.button{
+    float: left;
+    width: 14%;
+    height: 110%;
+    margin: 3% 43% 3% 43%;
+    border-radius: 100%;
+    background-color: #d68093;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+}
