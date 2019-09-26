@@ -3,6 +3,7 @@
 body{
     background: rgb(2,0,36);
 background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(101,118,179,1) 72%, rgba(214,128,147,1) 100%);
+    margin: 20px;
 }
 
 .wrapper{
@@ -22,18 +23,80 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(101,118,179,1) 72%, 
     margin-bottom: 100px; */
 }
 
+.container1{
+    position: relative;
+    margin: 20px auto auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    width: 85%;
+    height: 15%;
+}
+
+.container2{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    width: 85%;
+    height: 15%;
+}
+
+.container3{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    width: 85%;
+    height: 15%;
+}
+
+.container4{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    width: 85%;
+    height: 15%;
+}
+
+.container5{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    width: 85%;
+    height: 15%;
+}
+
+
 .box{
     /* position: relative; */
-    float: left;
-    width: 17%;
-    height: 135%;
-    margin: 4% 4% 4% 4%;
+    display: flex;
+    align-self: flex;
+    width: 70px;
+    height: 70px;
+    /* margin: 4% 4% 4% 4%; */
     border-radius: 15%;
-    background-color: #ccc8c8;
+    background-color: #ccc8c8; 
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    transition: 0.5s;
+    transition: 0.5s; 
     
 
     /* margin-top: 40px;
